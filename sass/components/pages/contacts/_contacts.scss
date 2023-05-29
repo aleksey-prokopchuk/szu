@@ -1,0 +1,38 @@
+.wrapper {
+  width: 470px;
+
+  border-right: 1px solid #d2d2d2;
+}
+.contacts-page {
+  &__list {
+  }
+  &__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &__subtitle {
+    margin-bottom: 6px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--main-txt-color);
+  }
+
+  &__descrip {
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.143;
+
+    color: var(--main-txt-color);
+
+    &--link {
+      margin-left: 20px;
+      line-height: 1.143;
+
+      color: var(--main-txt-color);
+    }
+  }
+}

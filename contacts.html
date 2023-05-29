@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Контакти</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- contacts -->
+      <div class="contacts">
+        <div class="header__container container">
+          <ul>
+            <li class="contacts__item list-no-marker">
+              <a class="contacts__link-phone link-no-decor" href="tel:+380674745955"
+                >(067) 474-59-55</a
+              >
+            </li>
+            <li class="contacts__item list-no-marker">
+              <a class="contacts__link-phone link-no-decor" href="tel:+380506996454"
+                >(050) 699-64-54</a
+              >
+            </li>
+          </ul>
+          <a class="contacts__link-mail link-no-decor" href="mailto:zou3@ukr.net">zou3@ukr.net</a>
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo__container container">
+          <a class="link-no-decor" href="">
+            <div class="logo__elips"></div>
+            <p class="logo__name" lang="ua">
+              Систематизоване <br />
+              законодавство України
+            </p>
+          </a>
+        </div>
+      </div>
+      <nav class="nav">
+        <div class="nav__container container">
+          <ul class="nav__list list-no-marker">
+            <li class="nav__item">
+              <a class="nav__link link-no-decor" href="./index.html">Головна</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link-no-decor" href="./codes-book.html">Право</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link-no-decor" href="">Освіта</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link-no-decor" href="./order-rules.html">Порядок замовлення</a>
+            </li>
+            <li class="nav__item nav__item--active">
+              <a class="nav__link link-no-decor" href="./contacts.html">Контакти</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="main__container container">
+        <h2 class="title">Контакти</h2>
+        <h3 class="subtitle">Зв’язатися з нами</h3>
+        <div class="wrapper">
+          <ul class="contacts-page__list list-no-marker">
+            <li class="contacts-page__item">
+              <h4 class="contacts-page__subtitle">Наша Адреса</h4>
+              <p class="contacts-page__descrip">м. Київ, вул. Антоновича 172, офіс 720, 03150</p>
+            </li>
+            <li class="contacts-page__item">
+              <h4 class="contacts-page__subtitle">Телефони</h4>
+              <ul class="contacts-page__list list-no-marker">
+                <li class="contacts-page__item--tel">
+                  <a class="contacts-page__descrip--link link-no-decor" href="tel:+380445282216"
+                    >(044) 528-22-16</a
+                  >
+                </li>
+                <li class="contacts-page__item--tel">
+                  <a class="contacts-page__descrip--link link-no-decor" href="tel:+380506996454"
+                    >(050) 699-64-54</a
+                  >
+                </li>
+                <li class="contacts-page__item--tel">
+                  <a class="contacts-page__descrip--link link-no-decor" href="tel:+380674745955"
+                    >(067) 474-59-55</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="contacts-page__item">
+              <h4 class="contacts-page__subtitle">E-mail</h4>
+              <a class="contacts-page__descrip--link link-no-decor" href="mailto:zou3@ukr.net"
+                >zou3@ukr.net</a
+              >
+            </li>
+          </ul>
+        </div>
+        <form action="">
+          <h4>Форма зв’язку</h4>
+          <label for="">
+            Ваше ім’я
+            <input type="text" />
+          </label>
+          <label for="">
+            E-mail для зв’язку
+            <input type="email" />
+          </label>
+          <label for="">
+            Повідомлення
+            <textarea name="" id="" cols="30" rows="3"></textarea>
+          </label>
+          <button type="submit">Надіслати</button>
+        </form>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__wrapper contacts">
+          <p class="copyright">
+            <script>
+              document.write(
+                '&#169; Всі права захищені. ' +
+                  new Date().getFullYear() +
+                  ' | Український інститут нормативної інформації'
+              );
+            </script>
+          </p>
+          <!-- Рік оновлюєтья автоматично' -->
+          <!-- <p>
+        <script>
+            document.write("&#169; Всі права захищені. "+ new Date().getFullYear()+ " | Український інститут нормативної інформації");
+          </script>
+      </p> -->
+
+          <a class="contacts__link-mail link-no-decor" href="mailto:zou3@ukr.net">zou3@ukr.net</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

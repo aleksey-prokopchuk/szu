@@ -1,0 +1,8 @@
+.footer {
+  padding: 21px 0;
+  background-color: var(--accent-color);
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}

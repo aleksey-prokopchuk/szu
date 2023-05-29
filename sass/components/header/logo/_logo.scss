@@ -1,0 +1,29 @@
+.logo {
+  &__container {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+  &__elips {
+    width: 71px;
+    height: 71px;
+
+    margin-left: auto;
+    margin-bottom: 14px;
+    margin-right: auto;
+
+    border-radius: 50%;
+    background-color: var(--logo-color);
+  }
+  &__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.333;
+
+    /* or 133% */
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+
+    color: var(--main-txt-color);
+  }
+}

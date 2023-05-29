@@ -1,0 +1,30 @@
+// variables
+@import './variables/variables';
+
+// utils
+@import './utils/mixins';
+
+// base
+@import './base/base';
+
+// components
+@import './components/container';
+// header
+@import './components/header/header';
+@import './components/contacts-header-footer';
+@import './components/header/logo/logo';
+@import './components/header/nav/nav';
+@import './components/footer/footer';
+@import './components/footer/copyright/copyright';
+
+// index
+@import './components/pages/main/main';
+
+// codes
+@import './components/pages/codes/books/codes-list';
+
+// order-rules
+@import './components/pages/order-rules/order-rules';
+
+//
+@import './components/pages/contacts/contacts';

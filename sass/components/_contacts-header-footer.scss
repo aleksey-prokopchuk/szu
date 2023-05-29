@@ -1,0 +1,14 @@
+.contacts {
+  background-color: var(--accent-color);
+  &__link-phone,
+  &__link-mail {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.167;
+    color: var(--main-txt-color);
+  }
+  &__link-mail {
+    text-align: right;
+  }
+}
