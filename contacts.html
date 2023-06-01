@@ -111,23 +111,41 @@
               >
             </li>
           </ul>
+          <form class="form-contacts">
+            <h4 class="contacts-page__subtitle">Форма зв’язку</h4>
+
+            <div class="form-contacts__wrapper">
+              <div class="form-contacts__wrapper--name">
+                <label class="form-contacts__label" for="input-name"> Ваше ім’я </label>
+                <input
+                  class="form-contacts__input"
+                  id="input-name"
+                  type="text"
+                  placeholder="Вкажіть своє ім’я"
+                />
+              </div>
+              <div class="form-contacts__wrapper--mail">
+                <label class="form-contacts__label" for="input-mail"> E-mail для зв’язку </label>
+                <input
+                  class="form-contacts__input"
+                  id="input-mail"
+                  type="email"
+                  placeholder="Вкажіть свій e-mail "
+                />
+              </div>
+            </div>
+            <label class="form-contacts__label" for="input-textarea"> Повідомлення </label>
+            <textarea
+              class="form-contacts__textarea"
+              name=""
+              id="input-textarea"
+              placeholder="Напишіть повідовлення"
+              cols="30"
+              rows="3"
+            ></textarea>
+            <button class="form-contacts__btn btn" type="submit">Надіслати</button>
+          </form>
         </div>
-        <form action="">
-          <h4>Форма зв’язку</h4>
-          <label for="">
-            Ваше ім’я
-            <input type="text" />
-          </label>
-          <label for="">
-            E-mail для зв’язку
-            <input type="email" />
-          </label>
-          <label for="">
-            Повідомлення
-            <textarea name="" id="" cols="30" rows="3"></textarea>
-          </label>
-          <button type="submit">Надіслати</button>
-        </form>
       </div>
     </main>
 

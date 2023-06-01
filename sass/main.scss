@@ -9,6 +9,8 @@
 
 // components
 @import './components/container';
+// btn
+@import './components/btn/btn';
 // header
 @import './components/header/header';
 @import './components/contacts-header-footer';
@@ -26,5 +28,7 @@
 // order-rules
 @import './components/pages/order-rules/order-rules';
 
-//
+//contacts
 @import './components/pages/contacts/contacts';
+// form-contacts
+@import './components/pages/contacts/form-contacts';
