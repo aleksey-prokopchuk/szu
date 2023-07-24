@@ -59,8 +59,22 @@
             <li class="nav__item">
               <a class="nav__link link-no-decor" href="./index.html">Головна</a>
             </li>
-            <li class="nav__item nav__item--active">
-              <a class="nav__link link-no-decor" href="">Право</a>
+            <li class="nav__item nav__item--codes nav__item--active">
+              <a class="nav__link link-no-decor" href="./codes-book.html">Право</a>
+              <!-- dropdown-menu -->
+              <ul class="list-no-marker dropdown-menu">
+                <li class="dropdown-menu__item">
+                  <a class="dropdown-menu__link link-no-decor" href="./codes-book.html"
+                    >Кодекси в книгах (без підтримки в контрольному стані)</a
+                  >
+                </li>
+                <li class="dropdown-menu__item">
+                  <a class="dropdown-menu__link link-no-decor" href="./codes-folders.html"
+                    >Кодекси в теках (з підтримкою в контрольному стані)</a
+                  >
+                </li>
+              </ul>
+              <!-- <div></div> -->
             </li>
             <li class="nav__item">
               <a class="nav__link link-no-decor" href="">Освіта</a>
@@ -81,7 +95,7 @@
       <div class="main__container container">
         <h2 class="title">Кодекси в книгах (без підтримки в контрольному стані)</h2>
         <ul class="codes-list list-no-marker">
-          <li class="codes-list__item">
+          <!-- <li class="codes-list__item">
             <a class="codes-list__link link-no-decor" href="">
               <img
                 class="codes-list__img-thumbs img-thumbs"
@@ -140,7 +154,7 @@
               <p class="codes-list__prise">300.00 грн.</p>
               <button class="codes-list__button btn" type="button">Замовити</button>
             </div>
-          </li>
+          </li> -->
         </ul>
       </div>
     </main>
@@ -168,5 +182,47 @@
         </div>
       </div>
     </footer>
+
+    <!-- Модалка -->
+
+    <div class="modal is-hidden" data-modal="">
+      <div class="container">
+        <form class="form-order">
+          <h4 class="form-order__title">Контактні дані</h4>
+          <button class="form-order__btn-close" type="button" data-modal-close="">X</button>
+          <p class="form-order__description">Залиште контакти і ми обов'язково зв'яжемося з вами</p>
+          <div class="form-order__wrapper">
+            <label class="form-order__lable form-label" for="input-name">Ім’я</label>
+            <input
+              class="form-order__input form-input"
+              type="text"
+              name=""
+              id="input-name"
+              placeholder="Вкажіть своє ім’я"
+            />
+            <label class="form-order__lable form-label" for="input-tel">Телефон</label>
+            <input
+              class="form-order__input form-input"
+              type="tel"
+              name=""
+              id="input-tel"
+              placeholder="Вкажіть свій телефон"
+            />
+            <label class="form-order__lable form-label" for="input-mail">E-mail</label>
+            <input
+              class="form-order__input form-input form-order__input--email"
+              type="email"
+              name=""
+              id="input-mail"
+              placeholder="Вкажіть свій e-mail"
+            />
+            <button class="form-order__btn btn" type="submit">Надіслати</button>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
+  <!-- <script src="./index.js"></script> -->
+  <script type="module" src="./js/codes-book.js"></script>
+  <!-- <script src="./js/modal.js"></script> -->
 </html>

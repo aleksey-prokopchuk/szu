@@ -26,20 +26,20 @@
   }
   &__input,
   &__textarea {
-    margin-bottom: 10px;
-    padding: 6px 8px;
+    // margin-bottom: 10px;
+    // padding: 6px 8px;
 
-    border: 1px solid var(--grey-color);
-    border-radius: 2px;
+    // border: 1px solid var(--grey-color);
+    // border-radius: 2px;
   }
-  &__input::placeholder,
-  &__textarea::placeholder {
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 1.333;
+  // &__input::placeholder,
+  // &__textarea::placeholder {
+  //   font-weight: 300;
+  //   font-size: 12px;
+  //   line-height: 1.333;
 
-    color: var(--dark-grey);
-  }
+  //   color: var(--dark-grey);
+  // }
 
   &__btn {
     margin-left: auto;

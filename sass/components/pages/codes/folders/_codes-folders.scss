@@ -1,0 +1,10 @@
+.codes-list {
+  &__item {
+    &--folders {
+      // height: 460px;
+      background-color: var(--white-color);
+      border: 1px solid var(--grey-color);
+      border-radius: 5px;
+    }
+  }
+}

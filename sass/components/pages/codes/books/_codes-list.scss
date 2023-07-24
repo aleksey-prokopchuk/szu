@@ -1,29 +1,53 @@
 .codes-list {
   display: flex;
-  align-content: space-between;
-  &__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 226px;
-    height: 480px;
+  flex-wrap: wrap;
+  gap: 22px;
+  // align-content: space-between;
 
-    padding: 17px 17px 29px 17px;
+  &__item {
+    // width: 226px;
+    // height: 480px;
+
+    // padding: 17px 17px 29px 17px;
 
     background-color: var(--white-color);
     border: 1px solid var(--grey-color);
     border-radius: 5px;
   }
-  &__item:not(:last-child) {
-    margin-right: 22px;
+
+  &__link {
+    // display: block;
+    // height: auto;
+
+    width: 224px;
+    height: 415px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 17px 17px 20px 17px;
+
+    &--folder {
+      height: 396px;
+    }
   }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  // &__item:not(:last-child) {
+  //   margin-right: 22px;
+  // }
 
   &__img-thumbs {
     margin-bottom: 10px;
   }
 
   &__name {
-    margin-bottom: 1px;
+    margin-bottom: 2px;
 
     font-weight: 500;
     font-size: 18px;
@@ -46,6 +70,17 @@
 
   &__order {
     text-align: center;
+  }
+
+  &__details {
+    color: #0072bb;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
   }
 
   &__prise {

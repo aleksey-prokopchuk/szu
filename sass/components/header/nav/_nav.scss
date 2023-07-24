@@ -1,3 +1,5 @@
+@import './dropdown-menu';
+
 .nav {
   //   &__container {
   //   }
@@ -16,6 +18,14 @@
     }
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &--codes {
+      position: relative;
+    }
+
+    &--codes:hover .dropdown-menu {
+      display: block;
+    }
   }
   &__item:hover,
   &__item:focus {

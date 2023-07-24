@@ -17,13 +17,20 @@
 @import './components/header/logo/logo';
 @import './components/header/nav/nav';
 @import './components/footer/footer';
-@import './components/footer/copyright/copyright';
+// modal
+@import './components/modal/modal';
+// form
+@import './components/form/form-order';
 
 // index
 @import './components/pages/main/main';
 
 // codes
 @import './components/pages/codes/books/codes-list';
+@import './components/pages/codes/folders/codes-folders';
+
+// card-product
+@import './components/card-product/card-product';
 
 // order-rules
 @import './components/pages/order-rules/order-rules';
